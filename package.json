@@ -2,11 +2,11 @@
   "name": "http-proxy",
   "version": "1.0.0",
   "description": "",
-  "main": "expressMockServer.js",
+  "main": "expressMockProxyServer.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "nodemon": "nodemon",
-    "start": "expressMockServer.js"
+    "start": "expressMockProxyServer.js"
   },
   "author": "",
   "license": "ISC",
