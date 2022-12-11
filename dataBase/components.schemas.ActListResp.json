@@ -1,0 +1,141 @@
+{
+  "page_info": {
+    "num_pages": 0,
+    "has_next": true,
+    "has_previous": true
+  },
+  "items": [
+    {
+      "id": 1,
+      "ord_id": "string",
+      "ord_register_status": "not_registered",
+      "ord_register": {
+        "id": 1,
+        "add_date": "2019-08-24T14:15:22Z",
+        "status": "not_registered",
+        "error_msg": "тут описание ошибки и много всего еще...."
+      },
+      "number": "EXPRESS",
+      "start_date": "2019-08-24",
+      "end_date": "2019-08-24",
+      "contract": {
+        "id": 1,
+        "number": "EXPRESS",
+        "ord_id": "string"
+      },
+      "contractor_customer": {
+        "id": 1,
+        "user": 1,
+        "name": "EXPRESS",
+        "ord_id": "string"
+      },
+      "contractor_performer": {
+        "id": 1,
+        "user": 1,
+        "name": "EXPRESS",
+        "ord_id": "string"
+      },
+      "client_role": "agent",
+      "contractor_role": "agent"
+    },
+    {
+      "id": 2,
+      "ord_id": "string",
+      "ord_register_status": "on_register",
+      "ord_register": {
+        "id": 1,
+        "add_date": "2019-08-24T14:15:22Z",
+        "status": "on_register",
+        "error_msg": "тут описание ошибки и много всего еще...."
+      },
+      "number": "532",
+      "start_date": "2019-08-24",
+      "end_date": "2019-08-24",
+      "contract": {
+        "id": 2,
+        "number": "624",
+        "ord_id": "string"
+      },
+      "contractor_customer": {
+        "id": 2,
+        "user": 2,
+        "name": "ракета",
+        "ord_id": "string"
+      },
+      "contractor_performer": {
+        "id": 2,
+        "user": 2,
+        "name": "Человек 1",
+        "ord_id": "string"
+      },
+      "client_role": "agent",
+      "contractor_role": "agent"
+    },
+    {
+      "id": 3,
+      "ord_id": "string",
+      "ord_register_status": "registered",
+      "ord_register": {
+        "id": 1,
+        "add_date": "2019-08-24T14:15:22Z",
+        "status": "registered",
+        "error_msg": "тут описание ошибки и много всего еще...."
+      },
+      "number": "53ffffffffff2",
+      "start_date": "2019-08-24",
+      "end_date": "2019-08-24",
+      "contract": {
+        "id": 2,
+        "number": "624",
+        "ord_id": "string"
+      },
+      "contractor_customer": {
+        "id": 3,
+        "user": 2,
+        "name": "ракета",
+        "ord_id": "string"
+      },
+      "contractor_performer": {
+        "id": 3,
+        "user": 2,
+        "name": "Человек 1",
+        "ord_id": "string"
+      },
+      "client_role": "agent",
+      "contractor_role": "agent"
+    },
+    {
+      "id": 4,
+      "ord_id": "string",
+      "ord_register_status": "error",
+      "ord_register": {
+        "id": 1,
+        "add_date": "2019-08-24T14:15:22Z",
+        "status": "error",
+        "error_msg": "тут описание ошибки и много всего еще...."
+      },
+      "number": "53777772",
+      "start_date": "2019-08-24",
+      "end_date": "2019-08-24",
+      "contract": {
+        "id": 4,
+        "number": "624",
+        "ord_id": "string"
+      },
+      "contractor_customer": {
+        "id": 4,
+        "user": 2,
+        "name": "ракета",
+        "ord_id": "string"
+      },
+      "contractor_performer": {
+        "id": 4,
+        "user": 2,
+        "name": "Человек 1",
+        "ord_id": "string"
+      },
+      "client_role": "agent",
+      "contractor_role": "agent"
+    }
+  ]
+}

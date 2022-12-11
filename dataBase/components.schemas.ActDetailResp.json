@@ -1,0 +1,258 @@
+[
+  {
+    "id": 1,
+    "act": {
+      "id": 1,
+      "client_role": "agent",
+      "contractor_role": "agent",
+      "start_date": "2019-08-24",
+      "end_date": "2019-08-24",
+      "date": "2019-08-24",
+      "number": "5440107",
+      "price": 433344,
+      "is_vat": true,
+      "type": "wm",
+      "ord_register_status": "not_registered",
+      "ord_status_update": "2019-08-24T14:15:22Z",
+      "ord_id": "test data",
+      "transaction_id": "0fec1e58-b197-4052-99cf-2218496c5482",
+      "add_date": "2019-08-24T14:15:22Z",
+      "update_date": "2019-08-24T14:15:22Z",
+      "contract": {
+        "id": 1,
+        "number": "hjkghggkhjblhb",
+        "ord_id": "v",
+        "contractor_customer": {
+          "id": 1,
+          "user": {
+            "id": 1
+          },
+          "name": "test data",
+          "ord_id": "string"
+        },
+        "contractor_performer": {
+          "id": 1,
+          "user": {
+            "id": 1
+          },
+          "name": "сам",
+          "ord_id": "string"
+        }
+      },
+      "items": [
+        {
+          "id": 1,
+          "price": 1,
+          "is_vat": true,
+          "add_date": "2019-08-24T14:15:22Z",
+          "update_date": "2019-08-24T14:15:22Z",
+          "transaction_id": "0fec1e58-b197-4052-99cf-2218496c5482",
+          "contract": {
+            "id": 1,
+            "number": "12345",
+            "ord_id": "string",
+            "contractor_customer": {
+              "id": 1,
+              "user": {
+                "id": 1
+              },
+              "name": "string",
+              "ord_id": "string"
+            },
+            "contractor_performer": {
+              "id": 1,
+              "user": {
+                "id": 1
+              },
+              "name": "test data",
+              "ord_id": "string"
+            }
+          },
+          "creatives": []
+        },
+        {
+          "id": 2,
+          "price": 2,
+          "is_vat": true,
+          "add_date": "2019-08-24T14:15:22Z",
+          "update_date": "2019-08-24T14:15:22Z",
+          "transaction_id": "0fec1e58-b197-4052-99cf-2218496c5482",
+          "contract": {
+            "id": 2,
+            "number": "522321",
+            "ord_id": "string",
+            "contractor_customer": {
+              "id": 2,
+              "user": {
+                "id": 2
+              },
+              "name": "string",
+              "ord_id": "string"
+            },
+            "contractor_performer": {
+              "id": 2,
+              "user": {
+                "id": 2
+              },
+              "name": "test data",
+              "ord_id": "string"
+            }
+          },
+          "creatives": [
+            {
+              "id": 2,
+              "start_date_plan": "2019-08-24",
+              "end_date_plan": "2019-08-24",
+              "start_date_fact": "2019-08-24",
+              "end_date_fact": "2019-08-24",
+              "money_spent": 999.99,
+              "unit_cost": 555,
+              "view_counts_fact": 123,
+              "view_counts_plan": 321,
+              "is_vat": true,
+              "add_date": "2019-08-24T14:15:22Z",
+              "update_date": "2019-08-24T14:15:22Z",
+              "transaction_id": "0fec1e58-b197-4052-99cf-2218496c5482",
+              "teaser": {
+                "id": 2,
+                "title": "facebook teaser"
+              },
+              "campaign": {
+                "id": 2,
+                "name": "facebook"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "act": {
+      "id": 2,
+      "client_role": "agent",
+      "contractor_role": "agent",
+      "start_date": "2019-08-24",
+      "end_date": "2019-08-24",
+      "date": "2019-08-24",
+      "number": "5440107",
+      "price": 33333333333,
+      "is_vat": true,
+      "type": "wm",
+      "ord_register_status": "not_registered",
+      "ord_status_update": "2019-08-24T14:15:22Z",
+      "ord_id": "test data",
+      "transaction_id": "0fec1e58-b197-4052-99cf-2218496c5482",
+      "add_date": "2019-08-24T14:15:22Z",
+      "update_date": "2019-08-24T14:15:22Z",
+      "contract": {
+        "id": 2,
+        "number": "EXPRESSSSSSSSS",
+        "ord_id": "EXPRESSSSSSSSS",
+        "contractor_customer": {
+          "id": 2,
+          "user": {
+            "id": 2
+          },
+          "name": "test data",
+          "ord_id": "string"
+        },
+        "contractor_performer": {
+          "id": 1,
+          "user": {
+            "id": 1
+          },
+          "name": "сам",
+          "ord_id": "string"
+        }
+      },
+      "items": [
+        {
+          "id": 1,
+          "price": 1,
+          "is_vat": true,
+          "add_date": "2019-08-24T14:15:22Z",
+          "update_date": "2019-08-24T14:15:22Z",
+          "transaction_id": "0fec1e58-b197-4052-99cf-2218496c5482",
+          "contract": {
+            "id": 1,
+            "number": "12345",
+            "ord_id": "string",
+            "contractor_customer": {
+              "id": 1,
+              "user": {
+                "id": 1
+              },
+              "name": "string",
+              "ord_id": "string"
+            },
+            "contractor_performer": {
+              "id": 1,
+              "user": {
+                "id": 1
+              },
+              "name": "test data",
+              "ord_id": "string"
+            }
+          },
+          "creatives": []
+        },
+        {
+          "id": 2,
+          "price": 2,
+          "is_vat": true,
+          "add_date": "2019-08-24T14:15:22Z",
+          "update_date": "2019-08-24T14:15:22Z",
+          "transaction_id": "0fec1e58-b197-4052-99cf-2218496c5482",
+          "contract": {
+            "id": 2,
+            "number": "522321",
+            "ord_id": "string",
+            "contractor_customer": {
+              "id": 2,
+              "user": {
+                "id": 2
+              },
+              "name": "string",
+              "ord_id": "string"
+            },
+            "contractor_performer": {
+              "id": 2,
+              "user": {
+                "id": 2
+              },
+              "name": "test data",
+              "ord_id": "string"
+            }
+          },
+          "creatives": [
+            {
+              "id": 2,
+              "start_date_plan": "2019-08-24",
+              "end_date_plan": "2019-08-24",
+              "start_date_fact": "2019-08-24",
+              "end_date_fact": "2019-08-24",
+              "money_spent": 999.99,
+              "unit_cost": 555,
+              "view_counts_fact": 123,
+              "view_counts_plan": 321,
+              "is_vat": true,
+              "add_date": "2019-08-24T14:15:22Z",
+              "update_date": "2019-08-24T14:15:22Z",
+              "transaction_id": "0fec1e58-b197-4052-99cf-2218496c5482",
+              "teaser": {
+                "id": 2,
+                "title": "facebook teaser"
+              },
+              "campaign": {
+                "id": 2,
+                "name": "facebook"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+]
