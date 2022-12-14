@@ -1,0 +1,71 @@
+{
+  "page_info": {
+    "num_pages": 0,
+    "has_next": true,
+    "has_previous": true
+  },
+  "items": [
+    {
+      "id": 1,
+      "ord_id": "string",
+      "campaign": {
+        "id": 0,
+        "name": "string",
+        "okveds": [
+          {
+            "id": 0,
+            "code": "string"
+          }
+        ]
+      },
+      "add_date": "2019-08-24T14:15:22Z",
+      "title": "string",
+      "desc": "string",
+      "url": "string",
+      "image": {
+        "name": "string",
+        "url": "string"
+      },
+      "ord_image_id": "string",
+      "ord_register": {
+        "id": 0,
+        "status": "not_registered",
+        "add_date": "2019-08-24T14:15:22Z",
+        "update_date": "2019-08-24T14:15:22Z",
+        "error_msg": "string"
+      },
+      "erid": "string"
+    },
+    {
+      "id": 2,
+      "ord_id": "string",
+      "campaign": {
+        "id": 0,
+        "name": "string",
+        "okveds": [
+          {
+            "id": 0,
+            "code": "string"
+          }
+        ]
+      },
+      "add_date": "2019-08-24T14:15:22Z",
+      "title": "string",
+      "desc": "string",
+      "url": "string",
+      "image": {
+        "name": "string",
+        "url": "string"
+      },
+      "ord_image_id": "string",
+      "ord_register": {
+        "id": 0,
+        "status": "not_registered",
+        "add_date": "2019-08-24T14:15:22Z",
+        "update_date": "2019-08-24T14:15:22Z",
+        "error_msg": "string"
+      },
+      "erid": "string"
+    }
+  ]
+}

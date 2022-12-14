@@ -1,14 +1,28 @@
 {
-    "message": "Validation error",
-    "code": "validation_error",
-    "errors": {
-        "number": [{"msg": "xxx"}],
-        "date": [{"msg": "yyy"}],
-        "items.0.creatives.0.money_spent": [
-            {
-                "msg": "none is not an allowed value",
-                "type": "type_error.none.not_allowed"
-            }
-        ]
-    }
+  "message": "Validation error",
+  "code": "validation_error",
+  "errors": {
+    "number": [
+      {
+        "msg": "xxx"
+      }
+    ],
+    "date": [
+      {
+        "msg": "yyy"
+      }
+    ],
+    "items.0.creatives.1.money_spent": [
+      {
+        "msg": "none is not an allowed value",
+        "type": "type_error.none.not_allowed"
+      }
+    ],
+    "items.0.creatives.2.money_spent": [
+      {
+        "msg": "none is not an allowed value",
+        "type": "type_error.none.not_allowed"
+      }
+    ]
+  }
 }
