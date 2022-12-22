@@ -8,7 +8,7 @@ const errorJson = require('./dataBase/error.json');
 const errorMessageOnly = require('./dataBase/errorMessageOnly.json');
 const actListResp = require('./dataBase/acts/queryParams.json')
 const teasersListResp = require('./dataBase/teasers/queryParams.json')
-
+const info = require('./dataBase/dash/init.json')
 
 const app = express();
 app.use(cors())
@@ -25,27 +25,34 @@ app.listen(4020); // сюда должно слать запросы прило�
 
 
 // вкладка АКТЫ, строки в таблице (таб должны быть query параметры, но express их не ест, а без них работает норм.)
-app.get('/acts', function(req, res){
-    res.status(200).json(actListResp);
-});
+// app.get('/acts', function(req, res){
+//     res.status(200).json(actListResp);
+// });
 
-app.put('/acts/1', function(req, res){
-    res.status(400).json(errorJson);
-});
+// app.put('/acts/1', function(req, res){
+//     res.status(400).json(errorJson);
+// });
 
-app.get('/teasers?', function(req, res){
-    res.status(200).json(teasersListResp);
+// app.get('/teasers?', function(req, res){
+//     res.status(200).json(teasersListResp);
+// });
+
+
+
+// dash info=======================================
+app.get('/user/info', function(req, res){
+    res.status(200).json(info);
 });
 
 //Для моковых данных , где выборка идёт по айдишнику (/acts/1), например договор из массива договоров
 
 // АКТЫ>РЕДАКТИРОВАТЬ>Договора и рРазаллокация по тизерам
-const acts = JSON.parse(fs.readFileSync('./dataBase/acts/id.json', 'UTF-8'));
-app.get('/acts/:id', function (req, res) {
-    const id = +req.params.id;
-    const act = acts.find(u => u.id === id);
-    res.status(200).json(act);
-});
+// const acts = JSON.parse(fs.readFileSync('./dataBase/acts/id.json', 'UTF-8'));
+// app.get('/acts/:id', function (req, res) {
+//     const id = +req.params.id;
+//     const act = acts.find(u => u.id === id);
+//     res.status(200).json(act);
+// });
 
 
 
@@ -69,12 +76,19 @@ app.get('/acts/:id', function (req, res) {
 // =============================================
 
 
-// Перенаправление запросов на URL http://127.0.0.1:4010, 
+// Перенаправление запросов на URL http://127.0.0.1:4010,
 // где крутится prism
-const prism = createProxyMiddleware({
-  target: 'http://127.0.0.1:4010',
+
+// const prism = createProxyMiddleware({
+//   target: 'http://127.0.0.1:4010',
+//   changeOrigin: true,
+// });
+// app.use('/', prism);
+
+
+//=============dash===========
+const dashBackend = createProxyMiddleware({
+  target: 'http://dash.stage.24smi.info/api/v2',
   changeOrigin: true,
 });
-app.use('/', prism);
-
-
+app.use('/', dashBackend);
